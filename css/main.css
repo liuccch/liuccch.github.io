@@ -1758,6 +1758,16 @@ pre code {
 .back-to-top.back-to-top-on {
   bottom: 30px;
 }
+.reading-progress-bar {
+  --progress: 0;
+  background: #37c6c0;
+  height: 3px;
+  position: fixed;
+  z-index: 50;
+  width: var(--progress);
+  left: 0;
+  top: 0;
+}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -2608,7 +2618,7 @@ mark.search-keyword {
 }
 .header-inner {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px;
   box-shadow: initial;
   width: 240px;
 }
@@ -2642,7 +2652,7 @@ mark.search-keyword {
   }
 }
 .main-inner {
-  border-radius: initial;
+  border-radius: 20px;
   box-sizing: border-box;
   width: calc(100% - 252px);
 }
@@ -2784,7 +2794,7 @@ mark.search-keyword {
 }
 .sidebar-inner {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px;
   box-shadow: initial;
   box-sizing: border-box;
   color: var(--text-color);
@@ -2853,4 +2863,23 @@ mark.search-keyword {
   .pagination {
     margin-bottom: 10px;
   }
+}
+body {
+  background: url("http://liuccch.oss-cn-hangzhou.aliyuncs.com/blog/%E5%A4%B4%E5%83%8F/%C9%BD%20%E8%8B%B9%E6%9E%9C4k%E9%A3%8E%E6%99%AF%E5%A3%81%E7%BA%B8_%E5%BD%BC%E5%B2%B8%E5%9B%BE%E7%BD%91.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.main-inner {
+  opacity: 0.95;
+}
+.sidebar {
+  opacity: 0.9;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.9;
 }
