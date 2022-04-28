@@ -31,6 +31,11 @@
 </blockquote>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: /images/favicon-16x16.png</span><br><span class="line">  medium: /images/favicon-32x32.png</span><br><span class="line">  apple_touch_icon: /images/apple-touch-icon-next.png</span><br><span class="line">  safari_pinned_tab: /images/logo.svg</span><br><span class="line">  #android_manifest: /manifest.json</span><br></pre></td></tr></table></figure>
 
+<h1 id="字体问题"><a href="#字体问题" class="headerlink" title="字体问题"></a>字体问题</h1><p>原来的字体不能说丑，我更想要一点横竖分明的那种感觉，修改配置文件</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node_modules\_config.yml</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">font:</span><br><span class="line">  enable: true #todo 这里改成true</span><br><span class="line">  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span><br><span class="line">  host:</span><br><span class="line"></span><br><span class="line">  # Font options:</span><br><span class="line"></span><br><span class="line">  # `external: true` will load this font family from `host` above.</span><br><span class="line"></span><br><span class="line">  # `family: Times New Roman`. Without any quotes.</span><br><span class="line"></span><br><span class="line">  # `size: x.x`. Use `em` as unit. Default: 1 (16px)</span><br><span class="line"></span><br><span class="line">  # Global font settings used for all elements inside &lt;body&gt;.</span><br><span class="line"></span><br><span class="line">  global:</span><br><span class="line">    external: true</span><br><span class="line">    family: Noto Serif SC #这里改成这个，当然你也可以捣鼓一下萍方字体，我直接用这个了省事</span><br><span class="line">    size:</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>Hexo博客</category>
@@ -38,20 +43,6 @@
       </categories>
       <tags>
         <tag>Hexo美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>article title</title>
-    <url>/2022/02/07/article-title/</url>
-    <content><![CDATA[<h2 id="Code-Test"><a href="#Code-Test" class="headerlink" title="Code Test"></a>Code Test</h2><span id="more"></span>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> ch1;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">	<span class="keyword">private</span> String name;</span><br><span class="line">	<span class="keyword">private</span> <span class="type">int</span> score;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">public</span> <span class="type">long</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> id;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">long</span> id)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.id = id;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setName</span><span class="params">(String name)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.name = name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getScore</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setScore</span><span class="params">(<span class="type">int</span> score)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.score = score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="title function_">Student</span><span class="params">(<span class="type">long</span> id, String name, <span class="type">int</span> score)</span> &#123;</span><br><span class="line">		<span class="built_in">super</span>();</span><br><span class="line">		<span class="built_in">this</span>.id = id;</span><br><span class="line">		<span class="built_in">this</span>.name = name;</span><br><span class="line">		<span class="built_in">this</span>.score = score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="string">&quot;Student [id=&quot;</span> + id + <span class="string">&quot;, name=&quot;</span> + name + <span class="string">&quot;, score=&quot;</span> + score + <span class="string">&quot;]&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>小说</tag>
-        <tag>论文</tag>
-        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -92,6 +83,20 @@
         <category>Android</category>
         <category>hormony</category>
       </categories>
+  </entry>
+  <entry>
+    <title>article title</title>
+    <url>/2022/02/07/article-title/</url>
+    <content><![CDATA[<h2 id="Code-Test"><a href="#Code-Test" class="headerlink" title="Code Test"></a>Code Test</h2><span id="more"></span>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> ch1;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">	<span class="keyword">private</span> String name;</span><br><span class="line">	<span class="keyword">private</span> <span class="type">int</span> score;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">public</span> <span class="type">long</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> id;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">long</span> id)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.id = id;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setName</span><span class="params">(String name)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.name = name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getScore</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setScore</span><span class="params">(<span class="type">int</span> score)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.score = score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="title function_">Student</span><span class="params">(<span class="type">long</span> id, String name, <span class="type">int</span> score)</span> &#123;</span><br><span class="line">		<span class="built_in">super</span>();</span><br><span class="line">		<span class="built_in">this</span>.id = id;</span><br><span class="line">		<span class="built_in">this</span>.name = name;</span><br><span class="line">		<span class="built_in">this</span>.score = score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="string">&quot;Student [id=&quot;</span> + id + <span class="string">&quot;, name=&quot;</span> + name + <span class="string">&quot;, score=&quot;</span> + score + <span class="string">&quot;]&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>小说</tag>
+        <tag>论文</tag>
+        <tag>python</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
