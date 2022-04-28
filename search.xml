@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo-NexT新版8.9.0 踩坑记录</title>
-    <url>/2022/04/28/Hexo-NexT%E6%96%B0%E7%89%887.X%20%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95%20/</url>
+    <title>Hexo-NexT新版8.9.0-踩坑记录</title>
+    <url>/2022/04/28/Hexo-NexT%E6%96%B0%E7%89%887.X-%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95%20/</url>
     <content><![CDATA[<p>网上关于Hexo NexT博客的美化有很多，这里就着重强调新版本我的一些踩坑记录，做一个备忘录。关于侧边栏上面Header的颜色问题，字体问题。</p>
 <span id="more"></span>
 
@@ -38,6 +38,20 @@
       </categories>
       <tags>
         <tag>Hexo美化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>article title</title>
+    <url>/2022/02/07/article-title/</url>
+    <content><![CDATA[<h2 id="Code-Test"><a href="#Code-Test" class="headerlink" title="Code Test"></a>Code Test</h2><span id="more"></span>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> ch1;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">	<span class="keyword">private</span> String name;</span><br><span class="line">	<span class="keyword">private</span> <span class="type">int</span> score;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">public</span> <span class="type">long</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> id;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">long</span> id)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.id = id;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setName</span><span class="params">(String name)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.name = name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getScore</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setScore</span><span class="params">(<span class="type">int</span> score)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.score = score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="title function_">Student</span><span class="params">(<span class="type">long</span> id, String name, <span class="type">int</span> score)</span> &#123;</span><br><span class="line">		<span class="built_in">super</span>();</span><br><span class="line">		<span class="built_in">this</span>.id = id;</span><br><span class="line">		<span class="built_in">this</span>.name = name;</span><br><span class="line">		<span class="built_in">this</span>.score = score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="string">&quot;Student [id=&quot;</span> + id + <span class="string">&quot;, name=&quot;</span> + name + <span class="string">&quot;, score=&quot;</span> + score + <span class="string">&quot;]&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>小说</tag>
+        <tag>论文</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
@@ -80,17 +94,43 @@
       </categories>
   </entry>
   <entry>
-    <title>article title</title>
-    <url>/2022/02/07/article-title/</url>
-    <content><![CDATA[<h2 id="Code-Test"><a href="#Code-Test" class="headerlink" title="Code Test"></a>Code Test</h2><span id="more"></span>
+    <title>Hexo-NexT新版8.9.0 踩坑记录</title>
+    <url>/2022/04/28/Hexo-NexT%E6%96%B0%E7%89%888.9.0-%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p>网上关于Hexo NexT博客的美化有很多，这里就着重强调新版本我的一些踩坑记录，做一个备忘录。关于侧边栏上面Header的颜色问题，字体问题。</p>
+<span id="more"></span>
 
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> ch1;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">private</span> <span class="type">long</span> id;</span><br><span class="line">	<span class="keyword">private</span> String name;</span><br><span class="line">	<span class="keyword">private</span> <span class="type">int</span> score;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">public</span> <span class="type">long</span> <span class="title function_">getId</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> id;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">long</span> id)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.id = id;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setName</span><span class="params">(String name)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.name = name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getScore</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setScore</span><span class="params">(<span class="type">int</span> score)</span> &#123;</span><br><span class="line">		<span class="built_in">this</span>.score = score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span> <span class="title function_">Student</span><span class="params">(<span class="type">long</span> id, String name, <span class="type">int</span> score)</span> &#123;</span><br><span class="line">		<span class="built_in">super</span>();</span><br><span class="line">		<span class="built_in">this</span>.id = id;</span><br><span class="line">		<span class="built_in">this</span>.name = name;</span><br><span class="line">		<span class="built_in">this</span>.score = score;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="meta">@Override</span></span><br><span class="line">	<span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="string">&quot;Student [id=&quot;</span> + id + <span class="string">&quot;, name=&quot;</span> + name + <span class="string">&quot;, score=&quot;</span> + score + <span class="string">&quot;]&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="侧边栏Header颜色问题"><a href="#侧边栏Header颜色问题" class="headerlink" title="侧边栏Header颜色问题"></a>侧边栏Header颜色问题</h1><p>在搭建好博客后，我发现，大多数的博客的侧边栏上面的那个背景都是黑色，可不可以换一下颜色呢</p>
+<p><img src="http://liuccch.oss-cn-hangzhou.aliyuncs.com/blog/%E6%88%AA%E5%9B%BE%E6%96%87%E4%BB%B6/Snipaste_2022-04-28_10-49-15.png"></p>
+<p>在查阅了一圈后，发现不太行，网上的教程大多数都是修改这个文件：</p>
+<blockquote>
+<p><del>themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_custom&#x2F;custom.styl</del></p>
+</blockquote>
+<p>但是不太行，新版的NexT没有这个文件，于是我就花了亿点点时间，找到在哪里改了，我是使用npm安装的因此在node_modules中，完整路径如下：</p>
+<blockquote>
+<p>node_modules\hexo-theme-next\source\css_schemes\Pisces_header.styl</p>
+</blockquote>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.site-brand-container</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#36186e</span>;//在这里填入颜色色号就行了</span><br><span class="line"></span><br><span class="line">  <span class="selector-class">.site-nav-on</span> &amp; &#123;</span><br><span class="line">    +tablet-mobile() &#123;</span><br><span class="line">      <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">16px</span> <span class="built_in">rgba</span>(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, .<span class="number">5</span>);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="网站favicon标题图标"><a href="#网站favicon标题图标" class="headerlink" title="网站favicon标题图标"></a>网站favicon标题图标</h1><p><img src="http://liuccch.oss-cn-hangzhou.aliyuncs.com/blog/%E6%88%AA%E5%9B%BE%E6%96%87%E4%BB%B6/image-20220428165026020.png"></p>
+<p>就是这个小东西，原来的有点丑，就设计了一个，这里使用的是一个免费的logo设计网站</p>
+<p>[<a href="https://www.logosc.cn/logo/favicon]">https://www.logosc.cn/logo/favicon]</a>: </p>
+<p>将设计的logo复制到，把原来的覆盖掉就行</p>
+<blockquote>
+<p>node_modules\hexo-theme-next\source\images</p>
+</blockquote>
+<p>或者修改配置文件,把名字改了就行</p>
+<blockquote>
+<p>node_modules\_config.yml</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: /images/favicon-16x16.png</span><br><span class="line">  medium: /images/favicon-32x32.png</span><br><span class="line">  apple_touch_icon: /images/apple-touch-icon-next.png</span><br><span class="line">  safari_pinned_tab: /images/logo.svg</span><br><span class="line">  #android_manifest: /manifest.json</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>Hexo博客</category>
+        <category>美化</category>
+      </categories>
       <tags>
-        <tag>小说</tag>
-        <tag>论文</tag>
-        <tag>python</tag>
+        <tag>Hexo美化</tag>
       </tags>
   </entry>
   <entry>
