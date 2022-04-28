@@ -32,8 +32,9 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: /images/favicon-16x16.png</span><br><span class="line">  medium: /images/favicon-32x32.png</span><br><span class="line">  apple_touch_icon: /images/apple-touch-icon-next.png</span><br><span class="line">  safari_pinned_tab: /images/logo.svg</span><br><span class="line">  #android_manifest: /manifest.json</span><br></pre></td></tr></table></figure>
 
 <h1 id="字体问题"><a href="#字体问题" class="headerlink" title="字体问题"></a>字体问题</h1><p>原来的字体不能说丑，我更想要一点横竖分明的那种感觉，修改配置文件</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">node_modules\_config.yml</span><br></pre></td></tr></table></figure>
-
+<blockquote>
+<p>node_modules_config.yml</p>
+</blockquote>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">font:</span><br><span class="line">  enable: true #todo 这里改成true</span><br><span class="line">  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span><br><span class="line">  host:</span><br><span class="line"></span><br><span class="line">  # Font options:</span><br><span class="line"></span><br><span class="line">  # `external: true` will load this font family from `host` above.</span><br><span class="line"></span><br><span class="line">  # `family: Times New Roman`. Without any quotes.</span><br><span class="line"></span><br><span class="line">  # `size: x.x`. Use `em` as unit. Default: 1 (16px)</span><br><span class="line"></span><br><span class="line">  # Global font settings used for all elements inside &lt;body&gt;.</span><br><span class="line"></span><br><span class="line">  global:</span><br><span class="line">    external: true</span><br><span class="line">    family: Noto Serif SC #这里改成这个，当然你也可以捣鼓一下萍方字体，我直接用这个了省事</span><br><span class="line">    size:</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 ]]></content>
