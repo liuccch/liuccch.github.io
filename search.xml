@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ToDo List</title>
-    <url>/2022/03/01/ToDo-List/</url>
-    <content><![CDATA[<h1 id="ToDo-List"><a href="#ToDo-List" class="headerlink" title="ToDo List"></a>ToDo List</h1><p>最近太忙了，初试成绩出了，忙着调剂，还要留意工作，后面还有毕设，之前的服务器到期了，我的个人项目转到这个博客上还需要一定时间，做个备忘录，等我有时间了，再写我的项目文档</p>
-<span id="more"></span>
-
-<h3 id="1-寝室管理系统"><a href="#1-寝室管理系统" class="headerlink" title="1.寝室管理系统"></a>1.寝室管理系统</h3><p>这个项目大一下学期（2019年6月）程序设计的结课作业，C语言写的，现在看挺烂的，一个文件写了1700行。。。。。。。。</p>
-<h3 id="2-火车票订购系统（代码遗失）"><a href="#2-火车票订购系统（代码遗失）" class="headerlink" title="2. 火车票订购系统（代码遗失）"></a>2. 火车票订购系统（代码遗失）</h3><p>数据结构课程设计，水平同上</p>
-<h3 id="3-学校人事管理程序（代码遗失）"><a href="#3-学校人事管理程序（代码遗失）" class="headerlink" title="3. 学校人事管理程序（代码遗失）"></a>3. 学校人事管理程序（代码遗失）</h3><p>这个水平也是c语言水平</p>
-<h3 id="4-备忘录"><a href="#4-备忘录" class="headerlink" title="4.备忘录"></a>4.备忘录</h3><p>主要用了java swing 设计的图形化界面</p>
-<h3 id="5-进程间通讯（代码遗失）"><a href="#5-进程间通讯（代码遗失）" class="headerlink" title="5.进程间通讯（代码遗失）"></a>5.进程间通讯（代码遗失）</h3><p>这个在linux虚拟机上，后来虚拟机文件受损就没了。</p>
-<h3 id="6-电子记账系统"><a href="#6-电子记账系统" class="headerlink" title="6.电子记账系统"></a>6.电子记账系统</h3><p>使用python django 框架写的，很不错的一个项目</p>
-<h3 id="7-基于web的完美校园"><a href="#7-基于web的完美校园" class="headerlink" title="7.基于web的完美校园"></a>7.基于web的完美校园</h3><p>这个是小组合作开发的，使用了gitee进行项目管理</p>
-<h3 id="8-博客系统"><a href="#8-博客系统" class="headerlink" title="8.博客系统"></a>8.博客系统</h3><p>这个是用Spring 框架写的，Java 企业级开发的考试，8个小时写一个系统，就离谱。。。。。。。。</p>
-<h3 id="9-教学可视化平台"><a href="#9-教学可视化平台" class="headerlink" title="9.教学可视化平台"></a>9.教学可视化平台</h3><p>在863实习的时候写的，emmmm</p>
-<h3 id="10-杂项"><a href="#10-杂项" class="headerlink" title="10.杂项"></a>10.杂项</h3><p>大学时搞了不少东西，虽然我是软件工程的，学校培养路线是java开发，但是我接触了许多新的东西。</p>
-<ul>
-<li><p>Thrift 框架  玩了好久，后面有个教学项目用这个写的</p>
-</li>
-<li><p>Opennebula 平台   虚拟云存储，以后可以买个nas装上</p>
-</li>
-<li><p>各种Linux发行版  ubuntu，centos，debain，opensuse。。。。。。。。。。。。</p>
-</li>
-<li><p>Linux服务器  什么自动打卡，我的世界联机，网站搭建。。。。。。。。</p>
-</li>
-<li><p>ESP32 ，ESP8266  ，玩客云改Armbain  虽然我是软件的，但是硬件我也玩</p>
-</li>
-<li><p>Android开发     因为完美校园请假太麻烦了，写了一个app，用于封校期间混出校，后来学校升级设备，无了</p>
-</li>
-<li><p>网络爬虫   毕设写的就是这个</p>
-<p>乱七八糟的还有好多，什么前端，小程序，抢红包，刷机，焊电路板 啥都有接触，兴趣爱好广泛</p>
-</li>
-</ul>
-<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h3 id="-1"><a href="#-1" class="headerlink" title=""></a></h3>]]></content>
-      <categories>
-        <category>Android</category>
-        <category>hormony</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hexo-NexT新版8.9.0 踩坑记录</title>
     <url>/2022/04/28/Hexo-NexT%E6%96%B0%E7%89%888.9.0-%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<p>网上关于Hexo NexT博客的美化有很多，这里就着重强调新版本我的一些踩坑记录，做一个备忘录。关于侧边栏上面Header的颜色问题，字体问题。</p>
@@ -84,6 +45,72 @@
       <tags>
         <tag>Hexo美化</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hexo简单使用</title>
+    <url>/2022/04/29/Hexo%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p>记录一下Hexo的简单使用，做一个备忘，以后不用再去找了。</p>
+<h1 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new &quot;文章标题&quot;</span><br></pre></td></tr></table></figure>
+
+<h1 id="跑服务"><a href="#跑服务" class="headerlink" title="跑服务"></a>跑服务</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<h1 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+
+<h1 id="部署到git"><a href="#部署到git" class="headerlink" title="部署到git"></a>部署到git</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<h1 id="清理"><a href="#清理" class="headerlink" title="清理"></a>清理</h1><p>这个命令还挺有用的，在部署到git上前，一般先清理一下，然后重新生成静态文件，上传。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<p>一般我进行使用的时候的命令是，这个命令的意思是生成静态文件并运行服务</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s -g</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Hexo博客</category>
+        <category>简单使用</category>
+      </categories>
+      <tags>
+        <tag>Hexo使用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ToDo List</title>
+    <url>/2022/03/01/ToDo-List/</url>
+    <content><![CDATA[<h1 id="ToDo-List"><a href="#ToDo-List" class="headerlink" title="ToDo List"></a>ToDo List</h1><p>最近太忙了，初试成绩出了，忙着调剂，还要留意工作，后面还有毕设，之前的服务器到期了，我的个人项目转到这个博客上还需要一定时间，做个备忘录，等我有时间了，再写我的项目文档</p>
+<span id="more"></span>
+
+<h3 id="1-寝室管理系统"><a href="#1-寝室管理系统" class="headerlink" title="1.寝室管理系统"></a>1.寝室管理系统</h3><p>这个项目大一下学期（2019年6月）程序设计的结课作业，C语言写的，现在看挺烂的，一个文件写了1700行。。。。。。。。</p>
+<h3 id="2-火车票订购系统（代码遗失）"><a href="#2-火车票订购系统（代码遗失）" class="headerlink" title="2. 火车票订购系统（代码遗失）"></a>2. 火车票订购系统（代码遗失）</h3><p>数据结构课程设计，水平同上</p>
+<h3 id="3-学校人事管理程序（代码遗失）"><a href="#3-学校人事管理程序（代码遗失）" class="headerlink" title="3. 学校人事管理程序（代码遗失）"></a>3. 学校人事管理程序（代码遗失）</h3><p>这个水平也是c语言水平</p>
+<h3 id="4-备忘录"><a href="#4-备忘录" class="headerlink" title="4.备忘录"></a>4.备忘录</h3><p>主要用了java swing 设计的图形化界面</p>
+<h3 id="5-进程间通讯（代码遗失）"><a href="#5-进程间通讯（代码遗失）" class="headerlink" title="5.进程间通讯（代码遗失）"></a>5.进程间通讯（代码遗失）</h3><p>这个在linux虚拟机上，后来虚拟机文件受损就没了。</p>
+<h3 id="6-电子记账系统"><a href="#6-电子记账系统" class="headerlink" title="6.电子记账系统"></a>6.电子记账系统</h3><p>使用python django 框架写的，很不错的一个项目</p>
+<h3 id="7-基于web的完美校园"><a href="#7-基于web的完美校园" class="headerlink" title="7.基于web的完美校园"></a>7.基于web的完美校园</h3><p>这个是小组合作开发的，使用了gitee进行项目管理</p>
+<h3 id="8-博客系统"><a href="#8-博客系统" class="headerlink" title="8.博客系统"></a>8.博客系统</h3><p>这个是用Spring 框架写的，Java 企业级开发的考试，8个小时写一个系统，就离谱。。。。。。。。</p>
+<h3 id="9-教学可视化平台"><a href="#9-教学可视化平台" class="headerlink" title="9.教学可视化平台"></a>9.教学可视化平台</h3><p>在863实习的时候写的，emmmm</p>
+<h3 id="10-杂项"><a href="#10-杂项" class="headerlink" title="10.杂项"></a>10.杂项</h3><p>大学时搞了不少东西，虽然我是软件工程的，学校培养路线是java开发，但是我接触了许多新的东西。</p>
+<ul>
+<li><p>Thrift 框架  玩了好久，后面有个教学项目用这个写的</p>
+</li>
+<li><p>Opennebula 平台   虚拟云存储，以后可以买个nas装上</p>
+</li>
+<li><p>各种Linux发行版  ubuntu，centos，debain，opensuse。。。。。。。。。。。。</p>
+</li>
+<li><p>Linux服务器  什么自动打卡，我的世界联机，网站搭建。。。。。。。。</p>
+</li>
+<li><p>ESP32 ，ESP8266  ，玩客云改Armbain  虽然我是软件的，但是硬件我也玩</p>
+</li>
+<li><p>Android开发     因为完美校园请假太麻烦了，写了一个app，用于封校期间混出校，后来学校升级设备，无了</p>
+</li>
+<li><p>网络爬虫   毕设写的就是这个</p>
+<p>乱七八糟的还有好多，什么前端，小程序，抢红包，刷机，焊电路板 啥都有接触，兴趣爱好广泛</p>
+</li>
+</ul>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><h3 id="-1"><a href="#-1" class="headerlink" title=""></a></h3>]]></content>
+      <categories>
+        <category>Android</category>
+        <category>hormony</category>
+      </categories>
   </entry>
   <entry>
     <title>Hello World</title>
